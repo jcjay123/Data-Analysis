@@ -1,4 +1,4 @@
-students = pd.read_csv('grades.csv',delimiter=',',header='infer')
+students = pd.read_csv('grades.txt',delimiter=',',header='infer')
 students.head()
 #Handling the missing values using isnull()
 students.isnull()
