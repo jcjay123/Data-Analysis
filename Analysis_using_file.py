@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 students =pd.read_csv('Grades.txt')
 #printing first 5 values from csv file using head()
 print(students.head())
